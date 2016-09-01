@@ -35,7 +35,7 @@
                 <configuration>
                     <redirectTestOutputToFile>true</redirectTestOutputToFile>
                     <suiteXmlFiles>
-                        <suiteXmlFile>target/test-classes/${AmazonAppRunner}</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/${NYTimesnAppRunner}</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

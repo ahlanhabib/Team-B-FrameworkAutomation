@@ -34,5 +34,11 @@ public class SearchObjects {
         this.pageObjectDriver=driver;
         PageFactory.initElements(driver, this);
     }
+    @FindBy(xpath = ".//*[@id='twotabsearchtextbox']m")
+    public WebElement searchBook;
+
+    @FindBy(xpath = ".//*[@id='nav-search']/form/div[2]/div/input")
+    public WebElement submit;
+
 
 }

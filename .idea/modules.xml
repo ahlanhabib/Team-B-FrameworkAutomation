@@ -4,8 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Amazon/Amazon.iml" filepath="$PROJECT_DIR$/Amazon/Amazon.iml" />
       <module fileurl="file://$PROJECT_DIR$/AutomationHWork.iml" filepath="$PROJECT_DIR$/AutomationHWork.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Facebook/Facebook.iml" filepath="$PROJECT_DIR$/Facebook/Facebook.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BestBuy/com.bestbuy.iml" filepath="$PROJECT_DIR$/BestBuy/com.bestbuy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChaseBank/com.chasebank.iml" filepath="$PROJECT_DIR$/ChaseBank/com.chasebank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NYTimes/com.nytimes.iml" filepath="$PROJECT_DIR$/NYTimes/com.nytimes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TDBank/com.tdbank.iml" filepath="$PROJECT_DIR$/TDBank/com.tdbank.iml" />
     </modules>
   </component>
 </project>

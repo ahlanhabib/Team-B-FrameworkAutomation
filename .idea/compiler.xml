@@ -23,13 +23,20 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="Amazon" />
-        <module name="Facebook" />
+        <module name="com.bestbuy" />
+        <module name="com.chasebank" />
+        <module name="com.nytimes" />
+        <module name="com.tdbank" />
         <module name="Generic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Amazon" target="1.5" />
+      <module name="Amazon" target="1.8" />
       <module name="AutomationHWork" target="1.5" />
+      <module name="com.bestbuy" target="1.8" />
+      <module name="com.chasebank" target="1.8" />
+      <module name="com.nytimes" target="1.8" />
+      <module name="com.tdbank" target="1.8" />
       <module name="Facebook" target="1.5" />
       <module name="Generic" target="1.5" />
     </bytecodeTargetLevel>
