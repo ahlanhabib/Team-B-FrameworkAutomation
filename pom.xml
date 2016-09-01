@@ -11,7 +11,11 @@
     <modules>
         <module>Amazon</module>
         <module>Generic</module>
+        <module>ChaseBank</module>
+        <module>TDBank</module>
+        <module>NYTimes</module>
         <module>Facebook</module>
+        <module>BestBuy</module>
     </modules>
     <dependencyManagement>
         <dependencies>
