@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Facebook" parallel="tests">
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="userName" value="Nahreen"/>
+    <parameter name="accessKey" value="022dd3c0-a304-4e1d-8a91-0e4271f9ecdc"/>
+    <parameter name="os" value="Win8"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="46.0"/>
+    <parameter name="url" value="http://www.facebook.com"/>
+
+    <test name = "Facebook Details">
+        <classes>
+            <!--<class name="Search.amazon.SearchItem"/>-->
+            <!--<class name="dataToSearch.ItemsToBeSearched"/>-->
+            <!--<class name="Search.amazon.SearchIphone"/>-->
+           <!-- <class name="logInTest.LogInAccount"/>-->
+            <!--<class name="Search.amazon.Items"/>-->
+            <!--<class name="logInTest.hoverOver"/>-->
+            <!--<class name="Search.amazon.SearchContentTV"/>-->
+        </classes>
+    </test>
+
+</suite>
