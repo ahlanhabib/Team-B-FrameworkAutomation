@@ -13,8 +13,13 @@
 
     <test name = "Amazon Search">
         <classes>
-            <class name="Search.amazon.SearchItem"/>
-            <!--<class name="SearchItems.Items"/>-->
+            <!--<class name="Search.amazon.SearchItem"/>-->
+            <!--<class name="dataToSearch.ItemsToBeSearched"/>-->
+            <!--<class name="Search.amazon.SearchIphone"/>-->
+            <class name="logInTest.LogInAccount"/>
+            <!--<class name="Search.amazon.Items"/>-->
+            <!--<class name="logInTest.hoverOver"/>-->
+            <!--<class name="Search.amazon.SearchContentTV"/>-->
         </classes>
     </test>
 
