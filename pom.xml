@@ -11,6 +11,7 @@
     <modules>
         <module>Amazon</module>
         <module>Generic</module>
+        <module>Facebook</module>
     </modules>
     <dependencyManagement>
         <dependencies>
