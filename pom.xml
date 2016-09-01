@@ -4,14 +4,22 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>Automation</groupId>
-    <artifactId>Automation-HW</artifactId>
+    <groupId>Automation-HomeWork</groupId>
+    <artifactId>AutomationHW</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>Amazon</module>
         <module>Generic</module>
+        <module>Amazon</module>
+        <module>BestBuy</module>
+        <module>ChaseBank</module>
+        <!--<module>Facebook</module>-->
+        <module>NYTimes</module>
+        <!--<module>Target</module>-->
+        <module>TDBank</module>
+
     </modules>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -64,5 +72,64 @@
         </dependencies>
     </dependencyManagement>
 
+    <!--Profiling-->
+
+    <profiles>
+        <profile>
+            <id>amazon-app</id>
+            <modules>
+                <module>Generic</module>
+                <module>Amazon</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>BestBuy-app</id>
+            <modules>
+                <module>Generic</module>
+                <module>BestBuy</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>NyTimes-app</id>
+            <modules>
+                <module>Generic</module>
+                <module>NYTimes</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>ChaseBank-app</id>
+            <modules>
+                <module>Generic</module>
+                <module>ChaseBank</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>Facebook-app</id>
+            <modules>
+                <module>Generic</module>
+                <!--<module>Facebook</module>-->
+            </modules>
+        </profile>
+        <!--<profile>-->
+            <!--<id>Target-app</id>-->
+            <!--<modules>-->
+                <!--<module>Generic</module>-->
+                <!--<module>Target</module>-->
+            <!--</modules>-->
+        <!--</profile>-->
+        <profile>
+            <id>TDBank-app</id>
+            <modules>
+                <module>Generic</module>
+                <module>TDBank</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>default</id>
+            <activation>
+                <jdk>1.8</jdk>
+            </activation>
+        </profile>
+    </profiles>
 
 </project>
