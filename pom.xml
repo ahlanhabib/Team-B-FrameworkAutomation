@@ -103,13 +103,13 @@
                 <module>ChaseBank</module>
             </modules>
         </profile>
-        <profile>
-            <id>Facebook-app</id>
-            <modules>
-                <module>Generic</module>
-                <!--<module>Facebook</module>-->
-            </modules>
-        </profile>
+        <!--<profile>-->
+            <!--<id>Facebook-app</id>-->
+            <!--<modules>-->
+                <!--<module>Generic</module>-->
+                <!--&lt;!&ndash;<module>Facebook</module>&ndash;&gt;-->
+            <!--</modules>-->
+        <!--</profile>-->
         <!--<profile>-->
             <!--<id>Target-app</id>-->
             <!--<modules>-->
