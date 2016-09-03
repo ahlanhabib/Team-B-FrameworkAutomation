@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Bestbuy E-Commerce" parallel="tests">
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="userName" value="Ahlan"/>
+    <parameter name="key" value=""/>
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="browserVersion" value="48.0.2"/>
+    <parameter name="url" value="http://www.bestbuy.com"/>
+
+    <test name = "BestBuy Search">
+        <classes>
+            <!--<class name="Test.Search_Items.SearchTheItems"/>-->
+            <!--<class name="CheckItemsOnHomePage.ClickItemsAndCheck"/>-->
+            <!--<class name="TestCreateAnAccount.TestCreateAnAccount"/> -->
+            <class name="LogIn.LogIn"/>
+        </classes>
+    </test>
+
+</suite>
